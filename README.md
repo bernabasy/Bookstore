@@ -46,15 +46,8 @@ Remove a selected book.
 <details>
   <summary>Languages</summary>
   <ul>
-    <li>HTML</li>
     <li>CSS</li>
-    <li>Javascript</li>
-  </ul>
-</details>
-<details>
-  <summary>Bundler</summary>
-  <ul>
-    <li>Webpack</li>
+    <li>React</li>
   </ul>
 </details>
 <details>
