@@ -31,12 +31,12 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Movie App <a name="about-project"></a>
+# 📖 Bookstore <a name="about-project"></a>
 
 >  The Bookstore is a website biulet with react and redux and create an MVP version of it that allows us to:
 
-Display a list of books.
-Add a book.
+Display a list of books,
+Add a book,
 Remove a selected book.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -106,8 +106,8 @@ To get a local copy up and running, follow these steps.
 Clone this repository to your desired folder:
 
 ```sh
-  git clone https://github.com/bernabasy/API-based-webapp
-  cd API-based-webapp
+  git clone https://github.com/bernabasy/Bookstore.git
+  cd Bookstore
 ```
 
 ### Install
@@ -142,7 +142,7 @@ To to build for the production, execute the following command:
 
 ### Deployment
 
-You can deploy this project using [Github Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site)
+You can deploy this project using [Github Pages]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -194,6 +194,6 @@ We would like to thank Microverse and our fellow micronauts.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/bernabasy/math-magicians/blob/dev/LICENSEd) licensed.
+This project is [MIT](https://github.com/bernabasy/Bookstore/blob/dev/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
