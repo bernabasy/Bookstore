@@ -2,7 +2,23 @@ const ADD_BOOK = 'bookstore/Books/ADD_BOOK';
 const REMOVE_BOOK = 'bookstore/Books/REMOVE_BOOK';
 
 const initialState = {
-  book: [],
+  book: [
+    {
+      id: 1,
+      title: 'Economics new',
+      author: 'Elen',
+    },
+    {
+      id: 2,
+      title: 'The book',
+      author: 'Thomas Jeferson',
+    },
+    {
+      id: 3,
+      title: 'The world',
+      author: 'Jone Thomas',
+    },
+  ],
 };
 
 export const addedBook = (book) => ({
