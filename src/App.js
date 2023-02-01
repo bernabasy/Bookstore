@@ -1,9 +1,13 @@
 import { Route, Link, Routes } from 'react-router-dom';
+import { useDispatch } from 'react-redux';
 import Books from './components/Books';
 import Catagories from './components/Catagories';
 import './App.css';
+import { loadBooksAsync } from './redux/books/booksApi';
 
 function App() {
+  const dispatch = useDispatch();
+  dispatch(loadBooksAsync());
   return (
     <>
       <nav>
