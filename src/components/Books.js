@@ -1,11 +1,12 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
+import { useSelector, useDispatch } from 'react-redux';
 import Book from './Book';
 import Addbook from './Addbook';
+import { removedBook } from '../redux/books/books';
 
 export default function Books() {
   const booklist = useSelector((state) => state.books);
-
+  const dispatch = useDispatch();
   return (
     <>
       <div>
@@ -14,7 +15,7 @@ export default function Books() {
             <li key={book.id}>
               <Book title={book.title} author={book.author} />
               <div>
-                <button type="button">Remove</button>
+                <button type="button" onClick={() => dispatch(removedBook(book.id))}>Remove</button>
               </div>
             </li>
           ))}
