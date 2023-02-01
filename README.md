@@ -70,7 +70,6 @@ Remove a selected book.
 
 - **Add Mobile vertion**
 - **Add Dark mode**
-
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
@@ -152,12 +151,6 @@ You can deploy this project using [Github Pages]()
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/bernabas-yosef-74b571186)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-#### 🔭 Future Features <a name="future-features"></a>
-
-- [ ] **Add a book**
-- [ ] **Add an author**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
