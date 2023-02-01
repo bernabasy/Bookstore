@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import Book from './Book';
+import Addbook from './Addbook';
 
 export default function Books() {
   const booklist = useSelector((state) => state.books);
@@ -19,6 +20,7 @@ export default function Books() {
           ))}
         </ul>
       </div>
+      <div><Addbook /></div>
     </>
   );
 }
