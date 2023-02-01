@@ -1,41 +1,24 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+import { useSelector } from 'react-redux';
+import Book from './Book';
 
-export default function Books(props) {
-  const { title, author } = props;
+export default function Books() {
+  const booklist = useSelector((state) => state.books);
+
   return (
     <>
       <div>
         <ul>
-          <li>
-            <span>{title}</span>
-            <span>{author}</span>
-            <button type="submit">Remove</button>
-          </li>
+          {booklist.map((book) => (
+            <li key={book.id}>
+              <Book title={book.title} author={book.author} />
+              <div>
+                <button type="button">Remove</button>
+              </div>
+            </li>
+          ))}
         </ul>
-        <h2>Add New Book</h2>
-        <form>
-          <div>
-            <input placeholder="Book title" />
-          </div>
-          <div>
-            <select>
-              <option selected>Category</option>
-              <option value="ONE">Category1</option>
-              <option value="TWO">categories2</option>
-            </select>
-          </div>
-          <div>
-            <button type="submit">ADD Book</button>
-          </div>
-        </form>
       </div>
-
     </>
   );
 }
-
-Books.propTypes = {
-  title: PropTypes.string.isRequired,
-  author: PropTypes.string.isRequired,
-};
