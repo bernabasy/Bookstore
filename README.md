@@ -80,7 +80,7 @@ Remove a selected book.
 
 ## 🚀 Project Presentation Video <a name="live-demo"></a>
 
-- <a href=""</a>
+- 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
