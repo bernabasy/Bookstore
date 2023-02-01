@@ -68,9 +68,8 @@ Remove a selected book.
 
 #### 🔭 Future Features <a name="future-features"></a>
 
-- **Add a book**
-- **Remove a selected booke**
-
+- **Add Mobile vertion**
+- **Add Dark mode**
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
@@ -81,7 +80,7 @@ Remove a selected book.
 
 ## 🚀 Project Presentation Video <a name="live-demo"></a>
 
-- <a href=""</a>
+- 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -153,7 +152,6 @@ You can deploy this project using [Github Pages]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FUTURE FEATURES -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
