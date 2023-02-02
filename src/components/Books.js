@@ -2,7 +2,9 @@ import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import Book from './Book';
 import Addbook from './Addbook';
-import { removedBook } from '../redux/books/books';
+import { removeBookAsync } from '../redux/books/booksApi';
+
+const { v4: uuidv4 } = require('uuid');
 
 export default function Books() {
   const booklist = useSelector((state) => state.books);
@@ -12,10 +14,10 @@ export default function Books() {
       <div>
         <ul>
           {booklist.map((book) => (
-            <li key={book.id}>
-              <Book title={book.title} author={book.author} />
+            <li key={uuidv4()}>
+              <Book title={book.title} author={book.author} category={book.category} />
               <div>
-                <button type="button" onClick={() => dispatch(removedBook(book.id))}>Remove</button>
+                <button type="button" onClick={() => dispatch(removeBookAsync(book.id))}>Remove</button>
               </div>
             </li>
           ))}

@@ -1,16 +1,19 @@
 import { React, useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addedBook } from '../redux/books/books';
+import { addBookAsync } from '../redux/books/booksApi';
+
+const { v4: uuidv4 } = require('uuid');
 
 const Addbook = () => {
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
-  const id = Math.random().toString();
   const dispatch = useDispatch();
 
   const handelSubmit = (e) => {
     e.preventDefault();
-    dispatch(addedBook({ title, author, id }));
+    dispatch(addBookAsync({
+      title, author, item_id: uuidv4(), category: '',
+    }));
     setTitle('');
     setAuthor('');
   };

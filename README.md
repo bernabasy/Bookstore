@@ -68,7 +68,7 @@ Remove a selected book.
 
 #### 🔭 Future Features <a name="future-features"></a>
 
-- **Add Mobile vertion**
+- **Add Mobile version**
 - **Add Dark mode**
 <!-- LIVE DEMO -->
 
