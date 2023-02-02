@@ -19,17 +19,17 @@ const Addbook = () => {
   };
 
   return (
-    <div>
-      <h2>Add New Book</h2>
-      <form id="myForm">
-        <div>
-          <input type="text" name="title" value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Book title" required />
+    <div className="w-100 p-5">
+      <h3>Add New Book</h3>
+      <form className="d-flex w-100" id="myForm">
+        <div className="w-50">
+          <input className="rounded h-100 m-1 h w-75" type="text" name="title" value={title} onChange={(e) => setTitle(e.target.value)} placeholder="Book title" required />
         </div>
-        <div>
-          <input type="text" name="author" value={author} onChange={(e) => setAuthor(e.target.value)} placeholder="Book author" required />
+        <div className="w-25">
+          <input className=" rounded h-100 m-1 w-75" type="text" name="author" value={author} onChange={(e) => setAuthor(e.target.value)} placeholder="Book author" required />
         </div>
-        <div>
-          <button type="submit" onClick={handelSubmit}>ADD New</button>
+        <div className="w-25">
+          <button className="w-75 btn btn-primary btn-lg" type="submit" onClick={handelSubmit}>ADD New</button>
         </div>
       </form>
     </div>
