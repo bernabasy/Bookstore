@@ -46,7 +46,7 @@ Remove a selected book.
 <details>
   <summary>Languages</summary>
   <ul>
-    <li>CSS</li>
+    <li>CSS(Bootstrap)</li>
     <li>React</li>
   </ul>
 </details>
