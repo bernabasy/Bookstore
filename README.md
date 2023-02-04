@@ -1,6 +1,7 @@
 <a name="readme-top"></a>
 <div align="center">
-
+<img />
+  <img src="./src/assets/snap.png" alt="snapshhot" width="80%"  height="auto" />
   <h1><b>Bookstore</b></h1>
 
 </div>
