@@ -2,3 +2,14 @@
   margin: 0;
   padding: 0;
 }
+
+.height {
+  height: 160px;
+}
+
+.vertical-divider {
+  width: 0.125rem;
+  height: 1.5rem;
+  background-color: #e8e8e8;
+  margin: 0 1rem;
+}
