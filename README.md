@@ -79,10 +79,6 @@ Remove a selected book.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Project Presentation Video <a name="live-demo"></a>
-
-- 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -149,7 +145,7 @@ You can deploy this project using [Github Pages]()
 
 - GitHub: [@githubhandle](https://github.com/bernabasy)
 - Twitter: [@twitterhandle](https://twitter.com/@bernabasjosef)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bernabas-yosef-74b571186)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/bernabasjosef/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
