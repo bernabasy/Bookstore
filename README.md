@@ -75,8 +75,7 @@ Remove a selected book.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- <a href="#" target="_blank">Live Demo Link</a>
-
+- [Live Link](https://bernabasy-bookstore.onrender.com/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
